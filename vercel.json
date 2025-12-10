@@ -5,9 +5,9 @@
   "framework": "vite",
   "outputDirectory": "dist",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "functions": {
+    "nodeVersion": "18.x"
+  }
 }
