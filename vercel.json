@@ -4,7 +4,7 @@
   "installCommand": "pnpm install",
   "framework": "vite",
   "outputDirectory": "dist",
-  "env": [],
+  "env": {},
   "functions": {
     "api/**": {
       "memory": 1024,
